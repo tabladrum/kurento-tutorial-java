@@ -36,7 +36,7 @@ import org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry
 public class One2OneCallAdvApp implements WebSocketConfigurer {
 
 	final static String DEFAULT_KMS_WS_URI = "ws://ec2-54-90-165-101.compute-1.amazonaws.com:8888/kurento";
-	final static String DEFAULT_APP_SERVER_URL = "http://localhost:8080";
+	final static String DEFAULT_APP_SERVER_URL = "http://localhost:9080";
 
 	@Bean
 	public CallHandler callHandler() {
